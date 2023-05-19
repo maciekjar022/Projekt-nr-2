@@ -1,0 +1,479 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  width: 96%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  height: 50px;
+  padding: 10px 10px;
+  background-color: #808080;
+  text-align: center;
+  line-height: 50px;
+}
+
+.nav .container .menu {
+  display: none;
+
+}
+
+.nav .firm {
+  justify-content: flex-start;
+  text-decoration: none;
+  text-shadow: #000000 0.1em 0.1em 0.2em;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url("img/airsoft-4498480_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header .shadow {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header .container {
+  width: 96%;
+  height: 100%;
+  padding: 10px 10px;
+}
+
+.header .container .heading {
+  margin-top: 250px;
+  margin-left: 15px;
+  font-size: 36px;
+}
+
+.header .heading {
+  position: absolute;
+  font-size: 36px;
+  text-shadow: #d1c5c5 0.1em 0.1em 0.2em;
+  color: #ffff;
+  padding: 10px 10px;
+  margin-top: 180px;
+  margin-right: 95px;
+  margin-left: 15px;
+}
+
+.header p {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 700;
+  text-shadow: #d1c5c5 0.1em 0.1em 0.2em;
+  color: #ffff;
+  padding: 10px 10px;
+  margin-top: 400px;
+  margin-left: 15px;
+}
+
+.header .offer-btn {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffff;
+  padding: 10px 40px;
+  margin-top: 500px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+  border: 3px solid #ffff;
+  transition: 1s;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: #514a4a 0.1em 0.1em 0.2em;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.specjalist1 .container {
+  display: block;
+  width: 96%;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+.container h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px auto;
+}
+
+.container .items1:nth-child(1) {
+  width: 250px;
+  height: 250px;
+  margin-left: 160px;
+  padding: 10px 10px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  background-image: url("img/military-1442907_640a.jpg");
+}
+
+.container .items1:nth-child(2) {
+  display: block;
+  width: 400px;
+  text-align: justify;
+  margin-left: 80px;
+  padding: 10px 10px;
+  text-shadow: #514a4a 0.1em 0.1em 0.2em;
+}
+
+.specjalist2 .container {
+  display: block;
+  width: 96%;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+.container .items2:nth-child(1) {
+  width: 250px;
+  height: 250px;
+  margin-left: 160px;
+  padding: 10px 10px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  background-image: url("img/soldier-4771917_640a.jpg");
+}
+
+.container .items2:nth-child(2) {
+  display: block;
+  width: 400px;
+  text-align: justify;
+  margin-left: 80px;
+  padding: 10px 10px;
+  text-shadow: #514a4a 0.1em 0.1em 0.2em;
+}
+
+.baner {
+  height: 100px;
+  width: 500px;
+  line-height: 70px;
+  margin: 0 auto;
+  color: #798f8b;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: #514a4a 0.1em 0.1em 0.2em;
+  background-color: #253232;
+
+}
+
+.offers .containerU {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #253232;
+
+}
+
+.box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: 35px;
+  padding-bottom: auto;
+  width: 250px;
+  height: 250px;
+  background-color: #798f8b;
+}
+
+.box p {
+  padding: 0 70px;
+  text-align: center;
+}
+
+.circle {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 25px;
+  height: 25px;
+  background-color: #E07A64;
+  border-radius: 50%;
+}
+
+.footer {
+  display: flex;
+  width: 500px;
+  height: 50px;
+  background-color: #808080;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 auto;
+}
+
+.footer .container {
+  display: block;
+}
+
+.footer .container p {
+  font-size: 18px;
+  color: #ffff;
+}
+
+.icon {
+  background-color: #808080;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: -10px;
+  width: 500px;
+}
+
+.icon a {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .nav .container .menu {
+    display: none;
+  }
+
+  .nav .firm {
+    margin-left: 50px;
+  }
+
+  .header .container .heading {
+    margin-top: 150px;
+    margin-right: 0;
+    margin-left: 50px;
+    font-size: 36px;
+  }
+
+  .header .container p {
+    margin-top: 300px;
+    margin-left: 50px;
+    font-size: 18px;
+  }
+
+  .header .container .offer-btn {
+    margin-top: 450px;
+    margin-left: 50px;
+  }
+
+  main h2 {
+    text-align: center;
+  }
+
+  .specjalist1 .container {
+    display: block;
+  }
+
+  .specjalist1 .container .items1:nth-child(1) {
+    margin-left: 300px;
+    margin-right: 40px;
+  }
+
+  .specjalist1 .container .items1:nth-child(2) {
+    width: 500px;
+    margin-left: 180px;
+  }
+
+  .specjalist2 .container {
+    display: block;
+  }
+
+  .specjalist2 .container .items2:nth-child(1) {
+    margin-left: 300px;
+    margin-right: 40px;
+  }
+
+  .specjalist2 .container .items2:nth-child(2) {
+    width: 500px;
+    margin-left: 180px;
+  }
+
+  .offers .baner {
+    width: 700px;
+
+  }
+
+  .offers .containerU {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding-bottom: 20px;
+    width: 700px;
+    justify-content: space-evenly;
+    background-color: #253332;
+  }
+
+  .box {
+    margin-top: 15px;
+  }
+
+  .footer {
+    width: 700px;
+  }
+
+  .footer .container .icon {
+    width: 700px;
+    margin-left: -14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav .container .menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav li a {
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    text-shadow: #000000 0.1em 0.1em 0.2em;
+  }
+
+  .disabled {
+    cursor: not-allowed;
+  }
+
+  .header .container {
+    width: 960px;
+  }
+
+  .header .offer-btn {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffff;
+    width: 165px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 2px;
+    border: 3px solid #ffff;
+    transition: 1s;
+  }
+
+  .header .offer-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .specjalist1 .container {
+    display: flex;
+
+    width: 960px;
+
+    padding: 10px 10px;
+  }
+
+  .specjalist1 .container .items1:nth-child(1) {
+    display: flex;
+    margin-left: 20px;
+
+  }
+
+  .specjalist1 .container .items1:nth-child(2) {
+    display: block;
+    margin-left: 20px;
+    text-align: left;
+
+  }
+
+  .specjalist2 .container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 960px;
+
+  }
+
+  .specjalist2 .container .items2:nth-child(1) {
+    display: flex;
+    margin-left: 50px;
+
+  }
+
+  .specjalist2 .container .items2:nth-child(2) {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: right;
+
+  }
+
+  .offers .baner {
+    width: 100%;
+    line-height: 90px;
+    font-size: 36px;
+  }
+
+  .offers .containerU {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0;
+    background-color: #798f8b;
+  }
+
+  .box:hover {
+    transform: scale(1.05);
+  }
+
+  .footer {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #808080;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer .container {
+    display: flex;
+    width: 100%;
+
+  }
+
+  .footer .container p {
+    font-size: 18px;
+    color: #ffff;
+    margin-left: 210px;
+  }
+
+  .container .icon {
+    width: auto;
+    font-size: 20px;
+    color: #ffff;
+  }
+}
