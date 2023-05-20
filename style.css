@@ -7,11 +7,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
+.nav .container {
   display: flex;
   width: 96%;
   margin: 0 auto;
   justify-content: space-between;
+  
 }
 
 .nav {
@@ -34,7 +35,7 @@ body {
   text-shadow: #000000 0.1em 0.1em 0.2em;
   font-size: 18px;
   font-weight: 700;
-  margin-left: 15px;
+  /* margin-left: 15px; */
   color: #ffffff;
 }
 
@@ -240,7 +241,7 @@ h2 {
   background-color: #808080;
   font-size: 20px;
   color: #ffffff;
-  margin-left: -10px;
+  /* margin-left: -10px; */
   width: 500px;
 }
 
@@ -253,9 +254,9 @@ h2 {
     display: none;
   }
 
-  .nav .firm {
+  /* .nav .firm {
     margin-left: 50px;
-  }
+  } */
 
   .header .container .heading {
     margin-top: 150px;
@@ -330,14 +331,22 @@ h2 {
     width: 700px;
   }
 
-  .footer .container .icon {
+   .icon {
     width: 700px;
-    margin-left: -14px;
+    /* margin-left: -14px; */
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .nav .container .menu {
+  
+    .nav .container {
+     display: flex;
+     width: 96%;
+     gap: 550px;
+     justify-content: space-between;
+    }
+  
+    .nav .container .menu {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -359,7 +368,7 @@ h2 {
   }
 
   .header .container {
-    width: 960px;
+    width: 96%;
   }
 
   .header .offer-btn {
@@ -384,7 +393,7 @@ h2 {
   .specjalist1 .container {
     display: flex;
 
-    width: 960px;
+    width: 96%;
 
     padding: 10px 10px;
   }
@@ -405,7 +414,7 @@ h2 {
   .specjalist2 .container {
     display: flex;
     flex-direction: row-reverse;
-    width: 960px;
+    width: 96%;
 
   }
 
@@ -433,7 +442,7 @@ h2 {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 60px;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -461,6 +470,7 @@ h2 {
 
   .footer .container {
     display: flex;
+    justify-content: space-around;
     width: 100%;
 
   }
@@ -468,7 +478,7 @@ h2 {
   .footer .container p {
     font-size: 18px;
     color: #ffff;
-    margin-left: 210px;
+    /* margin-left: 210px; */
   }
 
   .container .icon {
