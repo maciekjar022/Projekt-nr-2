@@ -284,13 +284,13 @@ h2 {
   }
 
   .specjalist1 .container .items1:nth-child(1) {
-    margin-left: 300px;
+    margin-left: 240px;
     margin-right: 40px;
   }
 
   .specjalist1 .container .items1:nth-child(2) {
     width: 500px;
-    margin-left: 180px;
+    margin-left: 130px;
   }
 
   .specjalist2 .container {
@@ -298,13 +298,13 @@ h2 {
   }
 
   .specjalist2 .container .items2:nth-child(1) {
-    margin-left: 300px;
+    margin-left: 240px;
     margin-right: 40px;
   }
 
   .specjalist2 .container .items2:nth-child(2) {
     width: 500px;
-    margin-left: 180px;
+    margin-left: 130px;
   }
 
   .offers .baner {
