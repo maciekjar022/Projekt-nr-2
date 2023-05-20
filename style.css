@@ -344,6 +344,7 @@ h2 {
      width: 96%;
      gap: 550px;
      justify-content: space-between;
+     margin-left: 155px;
     }
   
     .nav .container .menu {
@@ -352,6 +353,7 @@ h2 {
     list-style: none;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 150px;
   }
 
   .nav li a {
@@ -368,7 +370,9 @@ h2 {
   }
 
   .header .container {
+    display: flex;
     width: 96%;
+    margin-left: 100px;
   }
 
   .header .offer-btn {
@@ -392,10 +396,9 @@ h2 {
 
   .specjalist1 .container {
     display: flex;
-
     width: 96%;
-
     padding: 10px 10px;
+    margin-left: 150px;
   }
 
   .specjalist1 .container .items1:nth-child(1) {
@@ -408,6 +411,7 @@ h2 {
     display: block;
     margin-left: 20px;
     text-align: left;
+    width: 700px;
 
   }
 
@@ -415,13 +419,15 @@ h2 {
     display: flex;
     flex-direction: row-reverse;
     width: 96%;
+    
+    
 
   }
 
   .specjalist2 .container .items2:nth-child(1) {
     display: flex;
     margin-left: 50px;
-
+    margin-right: 150px;
   }
 
   .specjalist2 .container .items2:nth-child(2) {
@@ -429,15 +435,21 @@ h2 {
     margin-left: 20px;
     margin-right: 20px;
     text-align: right;
+    width: 700px;
+    
 
   }
 
-  .offers .baner {
+   .offers .baner {
     width: 100%;
     line-height: 90px;
     font-size: 36px;
+    text-align: center;
+    
   }
-
+.offers .baner h2 {
+  text-align: center;
+}
   .offers .containerU {
     display: grid;
     grid-template-columns: auto auto auto;
