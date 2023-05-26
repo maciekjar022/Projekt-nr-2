@@ -7,21 +7,27 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.nav .container {
-  display: flex;
-  width: 96%;
-  margin: 0 auto;
-  justify-content: space-between;
-  
-}
-
 .nav {
   display: flex;
+  justify-content: space-around;
   height: 50px;
-  padding: 10px 10px;
   background-color: #808080;
   text-align: center;
-  line-height: 50px;
+  align-items: center;
+
+}
+
+.nav .container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav .container {
+  display: flex;
+  width: 92%;
+
+  justify-content: space-between;
 }
 
 .nav .container .menu {
@@ -29,19 +35,23 @@ body {
 
 }
 
-.nav .firm {
-  justify-content: flex-start;
+.nav li a {
+  text-align: center;
   text-decoration: none;
-  text-shadow: #000000 0.1em 0.1em 0.2em;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.nav .firm {
+  text-decoration: none;
+  margin-left: 15px;
   font-size: 18px;
   font-weight: 700;
-  /* margin-left: 15px; */
   color: #ffffff;
 }
 
 .header {
-  position: relative;
-  height: 100vh;
+  height: calc(100vh - 50px);
   background-image: url("img/airsoft-4498480_1280.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,140 +63,143 @@ body {
 }
 
 .header .container {
-  width: 96%;
-  height: 100%;
-  padding: 10px 10px;
-}
-
-.header .container .heading {
-  margin-top: 250px;
-  margin-left: 15px;
-  font-size: 36px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 92%;
+  margin: 0 auto
 }
 
 .header .heading {
-  position: absolute;
+  max-width: 400px;
   font-size: 36px;
-  text-shadow: #d1c5c5 0.1em 0.1em 0.2em;
   color: #ffff;
-  padding: 10px 10px;
-  margin-top: 180px;
-  margin-right: 95px;
-  margin-left: 15px;
+  margin: 175px 0 0 15px;
 }
 
-.header p {
-  position: absolute;
+.header .description {
+  max-width: 275px;
   font-size: 18px;
   font-weight: 700;
-  text-shadow: #d1c5c5 0.1em 0.1em 0.2em;
   color: #ffff;
-  padding: 10px 10px;
-  margin-top: 450px;
-  margin-left: 15px;
+  margin: 60px 0 0 15px;
+
 }
 
 .header .offer-btn {
-  position: absolute;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   text-decoration: none;
   color: #ffff;
-  padding: 10px 40px;
-  margin-top: 580px;
-  margin-left: 20px;
+  width: 115px;
+  height: 30px;
+  margin: 60px 0 0 15px;
+  text-align: center;
+  line-height: 30px;
   letter-spacing: 2px;
   border: 3px solid #ffff;
   transition: 1s;
 }
 
-h2 {
+.main {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.main .specjalist1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.specjalist1 .container-specjalist {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.specjalist1 h2 {
+
+  height: 100px;
   font-size: 36px;
   font-weight: 700;
-  text-shadow: #514a4a 0.1em 0.1em 0.2em;
-  padding: 10px 10px;
-  text-align: center;
+  line-height: 100px;
 }
 
-.specjalist1 .container {
-  display: block;
-  width: 96%;
-  margin: 0 auto;
-  padding: 10px 10px;
-}
-
-.container h3 {
-  font-size: 18px;
-  font-weight: 700;
-  margin: 10px auto;
-}
-
-.container .items1:nth-child(1) {
+.container-specjalist .items1:nth-child(1) {
+  display: flex;
   width: 250px;
   height: 250px;
-  margin-left: 160px;
-  padding: 10px 10px;
+  left: 95px;
   border-radius: 50%;
   aspect-ratio: 1/1;
   background-image: url("img/military-1442907_640a.jpg");
 }
 
-.container .items1:nth-child(2) {
-  display: block;
-  width: 400px;
-  text-align: justify;
-  margin-left: 80px;
-  padding: 10px 10px;
-  text-shadow: #514a4a 0.1em 0.1em 0.2em;
+.container-specjalist .items1 h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
-.specjalist2 .container {
-  display: block;
-  width: 96%;
+.container-specjalist .items-description {
+  text-align: justify
+}
+
+.specjalist2 .container-specjalist {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
   margin: 0 auto;
-  padding: 10px 10px;
+  align-items: center;
+  padding-bottom: 40px;
 }
 
-.container .items2:nth-child(1) {
+.container-specjalist .items2:nth-child(1) {
+  display: flex;
   width: 250px;
   height: 250px;
-  margin-left: 160px;
-  padding: 10px 10px;
+  left: 95px;
   border-radius: 50%;
   aspect-ratio: 1/1;
   background-image: url("img/soldier-4771917_640a.jpg");
 }
 
-.container .items2:nth-child(2) {
-  display: block;
-  width: 400px;
-  text-align: justify;
-  margin-left: 80px;
-  padding: 10px 10px;
-  text-shadow: #514a4a 0.1em 0.1em 0.2em;
+.container-specjalist .items2 h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.offers {
+  width: 100%;
+  background-color: #253332;
+  margin: 0 auto;
+
 }
 
 .baner {
-  height: 100px;
-  width: 500px;
-  line-height: 70px;
   margin: 0 auto;
-  color: #798f8b;
+  padding: 50px 0 40px 0;
+  width: 92%;
   text-align: center;
   font-size: 26px;
-  font-weight: bold;
-  text-shadow: #514a4a 0.1em 0.1em 0.2em;
-  background-color: #253232;
-
+  font-weight: 700;
+  color: #798f8b;
 }
 
-.offers .containerU {
-  width: 500px;
-  display: flex;
+.containerU {
+  display: grid;
   flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  background-color: #253232;
+  gap: 60px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  justify-content: center;
+  background-color: #253332;
 
 }
 
@@ -195,17 +208,12 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: auto;
-  margin-bottom: 35px;
-  padding-bottom: auto;
-  width: 250px;
-  height: 250px;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  font-size: 24px;
   background-color: #798f8b;
-}
-
-.box p {
-  padding: 0 70px;
-  text-align: center;
+  transition: 0.5s;
 }
 
 .circle {
@@ -220,16 +228,19 @@ h2 {
 
 .footer {
   display: flex;
-  width: 500px;
-  height: 50px;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
   background-color: #808080;
   text-align: center;
-  line-height: 50px;
   margin: 0 auto;
 }
 
 .footer .container {
-  display: block;
+  display: flex;
+  width: 92%;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .footer .container p {
@@ -237,132 +248,59 @@ h2 {
   color: #ffff;
 }
 
-.icon {
-  background-color: #808080;
-  font-size: 20px;
-  color: #ffffff;
-  /* margin-left: -10px; */
-  width: 500px;
-}
-
-.icon a {
-  color: #ffffff;
+.container .icon a {
+  font-size: 30px;
+  color: #ffff;
+  margin: 10px;
 }
 
 @media screen and (min-width: 768px) {
-  .nav .container .menu {
-    display: none;
-  }
 
-  /* .nav .firm {
-    margin-left: 50px;
-  } */
-
-  .header .container .heading {
-    margin-top: 150px;
-    margin-right: 0;
-    margin-left: 50px;
-    font-size: 36px;
-  }
-
-  .header .container p {
-    margin-top: 300px;
-    margin-left: 50px;
-    font-size: 18px;
-  }
-
-  .header .container .offer-btn {
-    margin-top: 450px;
-    margin-left: 50px;
-  }
-
-  main h2 {
-    text-align: center;
-  }
-
-  .specjalist1 .container {
-    display: block;
-  }
-
-  .specjalist1 .container .items1:nth-child(1) {
-    margin-left: 240px;
-    margin-right: 40px;
-  }
-
-  .specjalist1 .container .items1:nth-child(2) {
-    width: 500px;
-    margin-left: 130px;
-  }
-
-  .specjalist2 .container {
-    display: block;
-  }
-
-  .specjalist2 .container .items2:nth-child(1) {
-    margin-left: 240px;
-    margin-right: 40px;
-  }
-
-  .specjalist2 .container .items2:nth-child(2) {
-    width: 500px;
-    margin-left: 130px;
-  }
-
-  .offers .baner {
-    width: 700px;
-
-  }
-
-  .offers .containerU {
+  .containerU {
     display: grid;
+    flex-direction: column;
     grid-template-columns: auto auto;
-    gap: 20px;
-    padding-bottom: 20px;
-    width: 700px;
-    justify-content: space-evenly;
+    gap: 60px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    justify-content: center;
     background-color: #253332;
+
   }
 
-  .box {
-    margin-top: 15px;
-  }
-
-  .footer {
-    width: 700px;
-  }
-
-   .icon {
-    width: 700px;
-    /* margin-left: -14px; */
+  .footer .container {
+    display: flex;
+    width: 92%;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 
+.specjalist2 .container-specjalist {
+  padding: 20px 0 20px 0;
+
+}
+
 @media screen and (min-width: 1024px) {
-  
-    .nav .container {
-     display: flex;
-     width: 96%;
-     gap: 550px;
-     justify-content: space-between;
-     margin-left: 155px;
-    }
-  
-    .nav .container .menu {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 150px;
+
+  .nav .container {
+    width: 960px;
+
   }
 
-  .nav li a {
-    text-align: center;
-    padding: 15px;
+  .nav .container .menu {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+  }
+
+  .nav .firm {
     text-decoration: none;
-    font-size: 18px;
-    color: #ffffff;
-    text-shadow: #000000 0.1em 0.1em 0.2em;
+    text-align: start;
+    width: 200px;
+
   }
 
   .disabled {
@@ -370,23 +308,28 @@ h2 {
   }
 
   .header .container {
-    display: flex;
-    width: 96%;
-    margin-left: 100px;
+    justify-content: center;
+    width: 960px;
+    height: 100%;
+
+  }
+
+  .header .heading {
+    max-width: 580px;
+
+  }
+
+  .header .description {
+    margin-top: 62px;
+    margin-bottom: 42px;
   }
 
   .header .offer-btn {
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #ffff;
     width: 165px;
     height: 40px;
     text-align: center;
     line-height: 40px;
-    letter-spacing: 2px;
-    border: 3px solid #ffff;
-    transition: 1s;
+
   }
 
   .header .offer-btn:hover {
@@ -394,108 +337,94 @@ h2 {
     color: #000000;
   }
 
-  .specjalist1 .container {
-    display: flex;
-    width: 96%;
-    padding: 10px 10px;
-    margin-left: 150px;
+
+  .specjalist1 .container-specjalist {
+    width: 960px;
+    flex-direction: row;
   }
 
-  .specjalist1 .container .items1:nth-child(1) {
-    display: flex;
-    margin-left: 20px;
+  .specjalist1 h2 {
+    margin: 0 auto;
+    width: 960px;
+  }
+
+  .container-specjalist .items1:nth-child(2) {
+    left: 200px;
+    font-size: 18px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 40px;
 
   }
 
-  .specjalist1 .container .items1:nth-child(2) {
-    display: block;
-    margin-left: 20px;
-    text-align: left;
-    width: 700px;
-
-  }
-
-  .specjalist2 .container {
+  .specjalist2 .container-specjalist {
+    width: 960px;
     display: flex;
     flex-direction: row-reverse;
-    width: 96%;
-    
-    
 
   }
 
-  .specjalist2 .container .items2:nth-child(1) {
-    display: flex;
-    margin-left: 50px;
-    margin-right: 150px;
-  }
 
-  .specjalist2 .container .items2:nth-child(2) {
+  .container-specjalist .items2:nth-child(2) {
     display: block;
-    margin-left: 20px;
-    margin-right: 20px;
+    height: 200px;
     text-align: right;
-    width: 700px;
-    
-
+    font-size: 18px;
+    margin-right: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
-   .offers .baner {
-    width: 100%;
-    line-height: 90px;
+
+
+  .baner {
+    width: 960px;
+    height: 100px;
     font-size: 36px;
-    text-align: center;
-    
-  }
-.offers .baner h2 {
-  text-align: center;
-}
-  .offers .containerU {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 60px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    line-height: 110px;
+
   }
 
-  .box {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    margin-bottom: 0;
-    background-color: #798f8b;
+  .containerU {
+    grid-template-columns: auto auto auto;
+
   }
+
+
 
   .box:hover {
     transform: scale(1.05);
+
+  }
+
+
+  .box+p {
+    padding: 0 50px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .box span {
+    display: block;
+    font-size: 18px;
+  }
+
+  .box p:nth-child(2) {
+    font-size: 18px;
   }
 
   .footer {
-    display: flex;
-    width: 100%;
-    height: 50px;
-    background-color: #808080;
-    text-align: center;
-    margin: 0 auto;
+    height: 70px;
+
   }
 
   .footer .container {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-
+    width: 960px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
   }
 
-  .footer .container p {
-    font-size: 18px;
-    color: #ffff;
-    /* margin-left: 210px; */
-  }
 
-  .container .icon {
-    width: auto;
-    font-size: 20px;
-    color: #ffff;
-  }
 }
