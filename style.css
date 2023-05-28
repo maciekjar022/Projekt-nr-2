@@ -30,7 +30,7 @@ body {
   justify-content: space-between;
 }
 
-.nav .container .menu {
+.menu {
   display: none;
 
 }
@@ -144,7 +144,7 @@ body {
 
 .container-specjalist .items1 h3 {
   font-weight: 700;
-  margin-bottom: 20px;
+  margin: 40px 0 20px 0
 }
 
 .container-specjalist .items-description {
@@ -157,7 +157,7 @@ body {
   width: 92%;
   margin: 0 auto;
   align-items: center;
-  padding-bottom: 40px;
+  padding: 40px 0 40px 0;
 }
 
 .container-specjalist .items2:nth-child(1) {
@@ -172,14 +172,13 @@ body {
 
 .container-specjalist .items2 h3 {
   font-weight: 700;
-  margin-bottom: 20px;
+  margin: 40px 0 20px 0
 }
 
 .offers {
   width: 100%;
   background-color: #253332;
   margin: 0 auto;
-
 }
 
 .baner {
@@ -192,7 +191,7 @@ body {
   color: #798f8b;
 }
 
-.containerU {
+.container-services {
   display: grid;
   flex-direction: column;
   gap: 60px;
@@ -200,7 +199,6 @@ body {
   padding-bottom: 50px;
   justify-content: center;
   background-color: #253332;
-
 }
 
 .box {
@@ -252,11 +250,12 @@ body {
   font-size: 30px;
   color: #ffff;
   margin: 10px;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
 
-  .containerU {
+  .container-services {
     display: grid;
     flex-direction: column;
     grid-template-columns: auto auto;
@@ -265,7 +264,6 @@ body {
     padding-bottom: 50px;
     justify-content: center;
     background-color: #253332;
-
   }
 
   .footer .container {
@@ -276,16 +274,12 @@ body {
   }
 }
 
-.specjalist2 .container-specjalist {
-  padding: 20px 0 20px 0;
 
-}
 
 @media screen and (min-width: 1024px) {
 
   .nav .container {
     width: 960px;
-
   }
 
   .nav .container .menu {
@@ -300,7 +294,6 @@ body {
     text-decoration: none;
     text-align: start;
     width: 200px;
-
   }
 
   .disabled {
@@ -311,12 +304,10 @@ body {
     justify-content: center;
     width: 960px;
     height: 100%;
-
   }
 
   .header .heading {
     max-width: 580px;
-
   }
 
   .header .description {
@@ -329,14 +320,12 @@ body {
     height: 40px;
     text-align: center;
     line-height: 40px;
-
   }
 
   .header .offer-btn:hover {
     background-color: #ffffff;
     color: #000000;
   }
-
 
   .specjalist1 .container-specjalist {
     width: 960px;
@@ -354,16 +343,13 @@ body {
     height: 200px;
     margin-left: 60px;
     margin-top: 40px;
-
   }
 
   .specjalist2 .container-specjalist {
     width: 960px;
     display: flex;
     flex-direction: row-reverse;
-
   }
-
 
   .container-specjalist .items2:nth-child(2) {
     display: block;
@@ -382,21 +368,16 @@ body {
     height: 100px;
     font-size: 36px;
     line-height: 110px;
-
+    text-align: left;
   }
 
-  .containerU {
+  .container-services {
     grid-template-columns: auto auto auto;
-
   }
-
-
 
   .box:hover {
     transform: scale(1.05);
-
   }
-
 
   .box+p {
     padding: 0 50px;
@@ -415,7 +396,6 @@ body {
 
   .footer {
     height: 70px;
-
   }
 
   .footer .container {
@@ -425,6 +405,5 @@ body {
     justify-content: space-between;
     flex-direction: row;
   }
-
 
 }
