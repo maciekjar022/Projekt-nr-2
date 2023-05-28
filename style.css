@@ -116,12 +116,13 @@ body {
   align-items: center;
 }
 
-.specjalist1 .container-specjalist {
+.container-specjalist {
   display: flex;
   flex-direction: column;
   width: 92%;
   margin: 0 auto;
   align-items: center;
+  padding: 40px 0 40px 0;
 }
 
 .specjalist1 h2 {
@@ -149,15 +150,6 @@ body {
 
 .container-specjalist .items-description {
   text-align: justify
-}
-
-.specjalist2 .container-specjalist {
-  display: flex;
-  flex-direction: column;
-  width: 92%;
-  margin: 0 auto;
-  align-items: center;
-  padding: 40px 0 40px 0;
 }
 
 .container-specjalist .items2:nth-child(1) {
